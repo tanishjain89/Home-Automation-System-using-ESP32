@@ -14,13 +14,13 @@
 
 #include <map>
 
-#define WIFI_SSID         "Tanish"    
-#define WIFI_PASS         "7887668727"
-#define APP_KEY           "02bf04a1-8a60-4aca-bac4-20fc3eddc3df"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
-#define APP_SECRET        "406be253-9337-44ec-8276-a1c5085e1559-0c0c9ed9-d511-436a-bef6-d2494aa9e1d6"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
+#define WIFI_SSID         "Your wifi name"    
+#define WIFI_PASS         "wifi password"
+#define APP_KEY           "in your sinric wepsite"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
+#define APP_SECRET        "in your sinric wepsite"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
 
 //Enter the device IDs here
-#define device_ID_1   "67f11c82dc4a25d5c3a14125"
+#define device_ID_1   "switch id which you have created"
 #define device_ID_2   "SWITCH_ID_NO_2_HERE"
 #define device_ID_3   "SWITCH_ID_NO_3_HERE"
 #define device_ID_4   "SWITCH_ID_NO_4_HERE"
@@ -51,10 +51,10 @@ typedef struct {      // struct for the std::map below
 } deviceConfig_t;
 
 
-// this is the main configuration
-// please put in your deviceId, the PIN for Relay and PIN for flipSwitch
-// this can be up to N devices...depending on how much pin's available on your device ;)
-// right now we have 4 devicesIds going to 4 relays and 4 flip switches to switch the relay manually
+//This is the main configuration
+//Please put in your deviceId, the PIN for Relay and the PIN for flipSwitch
+// this can be up to N devices...depending on how many pins's available on your device ;)
+// right now we have 4 device IDs going to 4 relays and 4 flip switches to switch the relays manually
 std::map<String, deviceConfig_t> devices = {
     //{deviceId, {relayPIN,  flipSwitchPIN}}
     {device_ID_1, {  RelayPin1, SwitchPin1 }},
