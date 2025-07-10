@@ -14,8 +14,8 @@ This project is a simple yet powerful Home Automation System built using an ESP3
 
 ## 🧰 Tech Stack
 
-| Component      | Used For              |
-|----------------|------------------------|
+| Component      | Used For                |
+|----------------|-------------------------|
 | ESP32-WROOM-32 | Main control unit       |
 | Relay Module   | Switching appliances    |
 | Arduino IDE    | Programming ESP32       |
