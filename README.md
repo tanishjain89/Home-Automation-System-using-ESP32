@@ -24,9 +24,8 @@ This project is a simple yet powerful Home Automation System built using an ESP3
 ---
 
 ## ⚙️ Circuit Diagram
+![Circuit Digram](https://github.com/user-attachments/assets/0674371e-93a2-4eae-add9-fa728e32f502)
 
-> _(Insert your hand-drawn or software-generated circuit here)_  
-> Example description:  
 ESP32 pins are connected to the relay module as follows:
 
 | Relay Channel | GPIO Pin |
